@@ -12,10 +12,28 @@
   	<description></description>
   	<servlet-class>servlets.ServletPruebaMy</servlet-class>
   </servlet>
+  
+  <servlet>
+  	<servlet-name>FS</servlet-name>
+  	<display-name>FormularioServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.FormularioServlet</servlet-class>
+  </servlet>
+
 
   <servlet-mapping>
   	<servlet-name>sp2</servlet-name>
   	<url-pattern>/numeropar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>FS</servlet-name>
+  	<url-pattern>/formulario</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>FS</servlet-name>
+  	<url-pattern>/formulariotest</url-pattern>
   </servlet-mapping>
   
   
