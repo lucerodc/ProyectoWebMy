@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>ALTA DE ALUMNOS</h1>
+	<form action="/ProyectoWebCiftMy/alumnoServlet" method="post">
+	
+		NOMBRE  : <input type="text" name="caja1"><br>
+		APELLIDO: <input type="text" name="caja2">
+		<br>
+		<br>
+		
+		<label for="estado">Sexo :</label>
+		<br>
+     <input type="radio" name="estado" value="femenino">Femenino
+     <input type="radio" name="estado" value="masculino">Masculino
+     <input type="radio" name="estado" value="n/s">n/s
+	 <br><br>
+	 
+	 <label for="materia">Materias :</label>
+	 <br>
+	 <select name="Materias" id="">
+     <option value="matematica">Matematica</option>
+     <option value="historia">Historia</option>
+     <option value="lenguaje">Lenguaje</option>
+     </select>
+     <br>
+	 
+	 <br>
+	 <label for="miTextarea">Ingresa tu texto :</label>
+	 <br>
+     <textarea id="miTextarea" name="miTexto" rows="" cols="40"></textarea>
+	<br>
+	<br>
+	<input type="submit" value="Enviar">
+	<br>
+	
+	
+	</form>
+	
+	
+
+</body>
+</html>
